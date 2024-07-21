@@ -120,6 +120,7 @@ This architecture is now used not only in natural language processing and comput
 https://x.com/ProfTomYeh/status/1794702829103309291
 
 Exercise:
+[Transformers_Tom Yeh.xlsx](https://github.com/user-attachments/files/16325592/Transformers_Tom.Yeh.xlsx)
 
 
 11_SORA
@@ -155,3 +156,4 @@ Self-attention, also known as scaled dot-product attention, is a fundamental con
 https://x.com/ProfTomYeh/status/1797249951325434315
 
 Exercise:
+[Self-attention_Tom Yeh.xlsx](https://github.com/user-attachments/files/16325595/Self-attention_Tom.Yeh.xlsx)

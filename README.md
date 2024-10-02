@@ -68,6 +68,11 @@ Backpropagation computes the gradient of a loss function with respect to the wei
 https://x.com/ProfTomYeh/status/1787874286813733108
 
 Exercise:
+[Backpropagation_Tom Yeh.xlsx](https://github.com/user-attachments/files/17229237/Backpropagation_Tom.Yeh.xlsx)
+
+Exercise: 
+[Backpropagation_Tom Yeh - 2.xlsx](https://github.com/user-attachments/files/17229240/Backpropagation_Tom.Yeh.-.2.xlsx)
+
 
 
 7_RRN (Recurrent Neural Network)
@@ -157,3 +162,65 @@ https://x.com/ProfTomYeh/status/1797249951325434315
 
 Exercise:
 [Self-attention_Tom Yeh.xlsx](https://github.com/user-attachments/files/16325595/Self-attention_Tom.Yeh.xlsx)
+
+
+14_Discrete Fourier Transform
+
+The discrete Fourier transform, or DFT, is the primary tool of digital signal processing. The math involved is extremely complex, involving a summation over a complex number term e^(-iwt). This exercise from Prof. Tom Yeh demonstrate this complexity. 
+
+https://x.com/ProfTomYeh/status/1805694219031662799
+
+Exersise:
+[DFT_Tom Yeh.xlsx](https://github.com/user-attachments/files/17229623/DFT_Tom.Yeh.xlsx)
+
+
+
+15_Feed-forward and Back-propagation 
+
+Two fundamental algorithms, Feed-forward and Back-propagation, that enable the working of a Neural Network.
+
+A feedforward network consists of three types of layers:
+1.	Input Layer: This layer receives the raw input data, which could be features extracted from an image, text, or any other form of data.
+2.	Hidden Layers: These intermediate layers process the input data using weights and activation functions. Hidden layers allow the network to learn complex patterns and representations.
+3.	Output Layer: The final layer produces the network’s output, which could be predictions for classification tasks or continuous values for regression tasks
+
+The backpropagation algorithm involves two main phases:
+1.	Forward Pass: During the forward pass, input data is propagated through the network, and the network produces a prediction. Each layer’s outputs are computed by applying weights and activation functions.
+2.	Backward Pass: In the backward pass, the network calculates the gradients of the loss function with respect to the network’s weights and biases. These gradients indicate the direction and magnitude of adjustments needed to minimize the loss. The network then updates its weights and biases using optimization algorithms like gradient descent
+
+Demystifying Feed-forward and Back-propagation using MS Excel. Gaurav Gupta. Towards Data Sicence. 12 Feb 2019
+Backpropagation vs. Feedforward Networks. Syed Wahad. TechKluster. 
+
+https://towardsdatascience.com/demystifying-feed-forward-and-back-propagation-using-ms-excel-30f5aeefcfc7
+
+Exercise:
+[FF & Back propagation.xlsx](https://github.com/user-attachments/files/17229738/FF.Back.propagation.xlsx)
+
+
+16_Batch Normalization
+
+Batch normalization is a common practice to improve training and achieve faster convergence. "Batch normalization is a technique for training very deep neural networks that standardizes the inputs to a layer for each mini-batch. This has the effect of stabilizing the learning process and dramatically reducing the number of training epochs required to train deep networks." A Gentle Introduction to Batch Normalization for Deep Neural Networks. Jason Brownlee. 4 Dec 2019. Deep Learning Performance
+
+https://x.com/ProfTomYeh/status/1830941593269870715
+
+Exercise:
+[Batch normalization_Tom Yeh.xlsx](https://github.com/user-attachments/files/17229798/Batch.normalization_Tom.Yeh.xlsx)
+
+
+17_Dropout
+
+“Dropout” in machine learning refers to the process of randomly ignoring certain nodes in a layer during training. Dropout is used as a regularization technique — it prevents overfitting by ensuring that no units are codependent. Dropout is a simple yet effective way of reducing overfitting and improving generalization
+
+Dropout is definitely not the only option to combat overfitting. Common regularization techniques include:
+1.	Early stopping: stop training automatically when a specific performance measure (eg. Validation loss, accuracy) stops improving
+2.	Weight decay: incentivize the network to use smaller weights by adding a penalty to the loss function (this ensures that the norms of the weights are relatively evenly distributed amongst all the weights in the networks, which prevents just a few weights from heavily influencing network output)
+3.	Noise: allow some random fluctuations in the data through augmentation (which makes the network robust to a larger distribution of inputs and hence improves generalization)
+4.	Model combination: average the outputs of separately trained neural networks (requires a lot of computational power, data, and time)
+Despite the plethora of alternatives, dropout remains an extremely popular protective measure against overfitting because of its efficiency and effectiveness
+A Simple Introduction to Dropout Regularization (With Code!). Nisha McNealis. 23 Apr 2020. Analytics Vidhya
+
+https://x.com/ProfTomYeh/status/1836044959020900392
+
+Exercise:
+[Dropout_Tom Yeh.xlsx](https://github.com/user-attachments/files/17230014/Dropout_Tom.Yeh.xlsx)
+

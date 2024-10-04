@@ -1,7 +1,7 @@
 # AI-by-Hand-exercises-Tom-Yeh
 Excel exercises done following posts from Professor Tom Yeh (IG: @ProfTomYeh)
 
-1_LSTM (Long short-term memory)
+**1_LSTM (Long short-term memory)**
 
 Artificial recurrent neural network architecture used in deep learning
 
@@ -11,7 +11,7 @@ Exercise:
 [LSTM_Tom Yeh.xlsx](https://github.com/user-attachments/files/16026954/LSTM_Tom.Yeh.xlsx)
 
 
-2_Superposition
+**2_Superposition**
 
 Superposition enables learning of many tasks within a single neural network. The method relies on learning different tasks in nearly orthogonal spaces, which mitigates model forgetting
 
@@ -21,7 +21,7 @@ Exercise:
 [Superpositon_Tom Yeh.xlsx](https://github.com/user-attachments/files/16026960/Superpositon_Tom.Yeh.xlsx)
 
 
-3_Vector database
+**3_Vector database**
 
 "At its core, a vector database is a purpose-built system designed for the storage and retrieval of vector data. In this context, a vector refers to an ordered set of numerical values that could represent anything from spatial coordinates to feature attributes, such as the case for machine learning and data science use cases where vectors are often used to represent the features of objects. The vector database can efficiently store and retrieve these feature vectors."
 
@@ -31,7 +31,7 @@ Exercise:
 [Vector database_Tom Yeh.xlsx](https://github.com/user-attachments/files/16026963/Vector.database_Tom.Yeh.xlsx)
 
 
-4_U-Net
+**4_U-Net**
 
 U-Net is a convolutional neural network that was developed for biomedical image segmentation at the Computer Science Department of the University of Freiburg.[1] The network is based on a fully convolutional neural network[2] whose architecture was modified and extended to work with fewer training images and to yield more precise segmentation. Segmentation of a 512 × 512 image takes less than a second on a modern (2015) GPU using the U-Net architecture.[1]
 
@@ -42,7 +42,7 @@ https://x.com/ProfTomYeh/status/1786064644982948106
 Exercise:
 
 
-5_GAN (Generative adversarial network)
+**5_GAN (Generative adversarial network)**
 
 A generative adversarial network (GAN) is a class of machine learning frameworks and a prominent framework for approaching generative AI.[1][2] The concept was initially developed by Ian Goodfellow and his colleagues in June 2014.[3] In a GAN, two neural networks contest with each other in the form of a zero-sum game, where one agent's gain is another agent's loss.
 
@@ -57,7 +57,7 @@ https://x.com/ProfTomYeh/status/1786124446303989880
 Exercise:
 
 
-6_Backpropagation
+**6_Backpropagation**
 
 In machine learning, backpropagation is a gradient estimation method used to train neural network models. The gradient estimate is used by the optimization algorithm to compute the network parameter updates.
 
@@ -75,7 +75,7 @@ Exercise:
 
 
 
-7_RRN (Recurrent Neural Network)
+**7_RRN (Recurrent Neural Network)**
 
 A recurrent neural network (RNN) is one of the two broad types of artificial neural network, characterized by direction of the flow of information between its layers. In contrast to the uni-directional feedforward neural network, it is a bi-directional artificial neural network, meaning that it allows the output from some nodes to affect subsequent input to the same nodes. Their ability to use internal state (memory) to process arbitrary sequences of inputs[1][2][3] makes them applicable to tasks such as unsegmented, connected handwriting recognition[4] or speech recognition.[5][6] 
 
@@ -88,7 +88,7 @@ https://x.com/ProfTomYeh/status/1787906449227554917
 Exercise:
 
 
-8_Autoencoder
+**8_Autoencoder**
 
 An autoencoder is a type of artificial neural network used to learn efficient codings of unlabeled data (unsupervised learning).[1][2] An autoencoder learns two functions: an encoding function that transforms the input data, and a decoding function that recreates the input data from the encoded representation. The autoencoder learns an efficient representation (encoding) for a set of data, typically for dimensionality reduction.
 
@@ -99,7 +99,7 @@ https://x.com/ProfTomYeh/status/1788238035080900904
 Exercise:
 
 
-9_Variational Auto Encoder
+**9_Variational Auto Encoder**
 
 In machine learning, a variational autoencoder (VAE) is an artificial neural network architecture introduced by Diederik P. Kingma and Max Welling.[1] It is part of the families of probabilistic graphical models and variational Bayesian methods.[2]
 
@@ -114,7 +114,7 @@ https://x.com/ProfTomYeh/status/1788299547355021719
 Exercise:
 
 
-10_Transformer
+**10_Transformer**
 
 A transformer is a deep learning architecture developed by Google and based on the multi-head attention mechanism, proposed in a 2017 paper "Attention Is All You Need".[1] Text is converted to numerical representations called tokens, and each token is converted into a vector via looking up from a word embedding table.[1] At each layer, each token is then contextualized within the scope of the context window with other (unmasked) tokens via a parallel multi-head attention mechanism allowing the signal for key tokens to be amplified and less important tokens to be diminished. The transformer paper, published in 2017, is based on the softmax-based attention mechanism proposed by Bahdanau et. al. in 2014 for machine translation,[2][3] and the Fast Weight Controller, similar to a transformer, proposed in 1992.[4][5][6]
 
@@ -128,7 +128,7 @@ Exercise:
 [Transformers_Tom Yeh.xlsx](https://github.com/user-attachments/files/16325592/Transformers_Tom.Yeh.xlsx)
 
 
-11_SORA
+**11_SORA**
 
 SORA is OpenAI's text-to-video generative AI model. That means you write a text prompt, and it creates a video that matches the description of the prompt.
 
@@ -141,7 +141,7 @@ https://x.com/ProfTomYeh/status/1795449683285848509
 Exercise:
 
 
-12_RLHF (Reinforcement learning from human feedback) 
+**12_RLHF (Reinforcement learning from human feedback)**
 
 In machine learning, reinforcement learning from human feedback (RLHF) is a technique to align an intelligent agent to human preferences. In classical reinforcement learning, the goal of such an agent is to learn a function that guides its behavior called a policy. This function learns to maximize the reward it receives from a separate reward function based on its task performance.[1] However, it is difficult to define explicitly a reward function that approximates human preferences. Therefore, RLHF seeks to train a "reward model" directly from human feedback.[2] The reward model is first trained in a supervised fashion—independently from the policy being optimized—to predict if a response to a given prompt is good (high reward) or bad (low reward) based on ranking data collected from human annotators. This model is then used as a reward function to improve an agent's policy through an optimization algorithm like proximal policy optimization.[3]
 
@@ -152,7 +152,7 @@ https://x.com/ProfTomYeh/status/1795803665845899511
 Exercise:
 
 
-13_Self Attention
+**13_Self Attention**
 
 The machine learning-based attention method simulates how human attention works by assigning varying levels of importance to different words in a sentence. It assigns importance to each word by calculating "soft" weights for the word's numerical representation, known as its embedding, within a specific section of the sentence called the context window to determine its importance
 
@@ -164,7 +164,7 @@ Exercise:
 [Self-attention_Tom Yeh.xlsx](https://github.com/user-attachments/files/16325595/Self-attention_Tom.Yeh.xlsx)
 
 
-14_Discrete Fourier Transform
+**14_Discrete Fourier Transform**
 
 The discrete Fourier transform, or DFT, is the primary tool of digital signal processing. The math involved is extremely complex, involving a summation over a complex number term e^(-iwt). This exercise from Prof. Tom Yeh demonstrate this complexity. 
 
@@ -175,7 +175,7 @@ Exersise:
 
 
 
-15_Feed-forward and Back-propagation 
+**15_Feed-forward and Back-propagation**
 
 Two fundamental algorithms, Feed-forward and Back-propagation, that enable the working of a Neural Network.
 
@@ -197,7 +197,7 @@ Exercise:
 [FF & Back propagation.xlsx](https://github.com/user-attachments/files/17229738/FF.Back.propagation.xlsx)
 
 
-16_Batch Normalization
+**16_Batch Normalization**
 
 Batch normalization is a common practice to improve training and achieve faster convergence. "Batch normalization is a technique for training very deep neural networks that standardizes the inputs to a layer for each mini-batch. This has the effect of stabilizing the learning process and dramatically reducing the number of training epochs required to train deep networks." A Gentle Introduction to Batch Normalization for Deep Neural Networks. Jason Brownlee. 4 Dec 2019. Deep Learning Performance
 
@@ -207,7 +207,7 @@ Exercise:
 [Batch normalization_Tom Yeh.xlsx](https://github.com/user-attachments/files/17229798/Batch.normalization_Tom.Yeh.xlsx)
 
 
-17_Dropout
+**17_Dropout**
 
 “Dropout” in machine learning refers to the process of randomly ignoring certain nodes in a layer during training. Dropout is used as a regularization technique — it prevents overfitting by ensuring that no units are codependent. Dropout is a simple yet effective way of reducing overfitting and improving generalization
 

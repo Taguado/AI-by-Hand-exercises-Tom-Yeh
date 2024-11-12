@@ -163,6 +163,9 @@ https://x.com/ProfTomYeh/status/1797249951325434315
 Exercise:
 [Self-attention_Tom Yeh.xlsx](https://github.com/user-attachments/files/16325595/Self-attention_Tom.Yeh.xlsx)
 
+Exercise 2:
+[Self Attention.xlsx](https://github.com/user-attachments/files/17716744/Self.Attention.xlsx)
+
 
 **14_Discrete Fourier Transform**
 

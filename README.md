@@ -227,3 +227,36 @@ https://x.com/ProfTomYeh/status/1836044959020900392
 Exercise:
 [Dropout_Tom Yeh.xlsx](https://github.com/user-attachments/files/17230014/Dropout_Tom.Yeh.xlsx)
 
+
+
+**18_Multihead attention**
+
+"...In practice, given the same set of queries, keys, and values we may want our model to combine knowledge from different behaviors of the same attention mechanism, such as capturing dependencies of various ranges (e.g., shorter-range vs. longer-range) within a sequence. Thus, it may be beneficial to allow our attention mechanism to jointly use different representation subspaces of queries, keys, and values.
+
+To this end, instead of performing a single attention pooling, queries, keys, and values can be transformed with 
+ independently learned linear projections. Then these 
+ projected queries, keys, and values are fed into attention pooling in parallel. In the end, 
+ attention-pooling outputs are concatenated and transformed with another learned linear projection to produce the final output. This design is called multi-head attention, where each of the attention pooling outputs is a head (Vaswani et al., 2017). Using fully connected layers to perform learnable linear transformations, Fig. 11.5.1 describes multi-head attention.
+https://d2l.ai/chapter_attention-mechanisms-and-transformers/multihead-attention.html
+
+Exercise:
+[Multihead_Attention.xlsx](https://github.com/user-attachments/files/18634680/Multihead_Attention.xlsx)
+
+
+
+**19_Deepseek**
+
+"...IDeepSeek is an artificial intelligence company that has developed a family of large language models (LLMs) and AI tools. Their flagship offerings include its LLM, which comes in various sizes, and DeepSeek Coder, a specialized model for programming tasks. The company emerged in 2023 with the goal of advancing AI technology and making it more accessible to users worldwide.
+
+DeepSeek's technology is built on transformer architecture, similar to other modern language models. The system processes and generates text using advanced neural networks trained on vast amounts of data. What sets DeepSeek apart is its:
+
+Model Architecture: It utilizes an optimized transformer architecture that enables efficient processing of both text and code.
+Training Approach: The models are trained using a combination of supervised learning and reinforcement learning from human feedback (RLHF), helping them better align with human preferences and values.
+Specialized Versions: Different model sizes are available for various use cases, from the lighter 7B parameter model to the more powerful 67B version...."
+
+https://www.getguru.com/reference/deepseek
+
+
+Exercise:
+[Deepseek_V4_Blank_Tom Yeh copy.xlsx](https://github.com/user-attachments/files/18634718/Deepseek_V4_Blank_Tom.Yeh.copy.xlsx)
+
